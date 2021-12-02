@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+/*Overwriter*/
+.text-primary{
+    color: #04253c!important;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.bg-blue{
+    background-color: #2d5693;
+}
+
+.bg-light-blue{
+    background-color: #21a7d4;
+}
+
+.bg-grey{
+    background-color: #738a8e;
+}
+
+.bg-orange{
+    background-color: #fa6846;
+}
+
+.header{
+    display: flex;
+    background-color: #000;
+    padding: 8px 0;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    padding: 0;
+    margin-right: auto;
+}
+
+.navbar-brand{
+    display: block;
+    width: 134px;
+    min-height: 48px;
+    background-color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    background-color: #f7f7f7;
+    margin-top: 64px;
+}
+
+.content-area{
+    background-color: #fff;
+}
+
+.blog-title h4{
+    margin-left: 8%;
+    margin-top: 46px;
+}
+
+.slider-container{
+    position: relative;
+}
+
+.slide>img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slick-dots{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+    left: 0;
+    bottom: 4%;
+}
+
+.slick-dots li::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+
+.slick-dots li>button{
+    display: none;
+}
+
+.content-container{
+    margin-left: 8%;
+    margin-top: 48px;
+}
+
+.content-container p{
+    font-size: 1rem;
+}
+
+.copyright{
+    color: #fff;
+}
+
+footer{
+    position: relative;
+    z-index: 30;
+}
+
+.footer-nav{
+    height: 172px;
+    background-color: #d2d2d2;
+}
+
+.side-bar{
+    left: 0;
+    top: 40%;
+    z-index: 40;
+}
+
+.side-bar .icon-container{
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar img{
+    width: 24px;
+    height: auto;
+}
+
+.form-wrapper{
+    position: fixed;
+    background-color: #1a3c5e;
+    top: 0;
+    left: 60%;
+    z-index: 20;
+    padding: 0 54px;
+    padding-top: 34px;
+    padding-bottom: 94px;
+    width: 22%;
+}
+
+.form-wrapper input{
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 18px;
+}
+
+.form-wrapper input::placeholder{
+    font-size: 0.8rem;
+}
+
+.form-wrapper .btn{
+    width: 100%;
+}
+
+.form-wrapper p{
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.form-wrapper .brand-icon{
+    width: 100%;
+    height: 68px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}

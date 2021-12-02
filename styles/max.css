@@ -1,0 +1,35 @@
+@media all and (max-width:768px){
+    .navbar{
+        margin: auto;
+    }
+
+    .blog-title h4, .content-container{
+        margin-left: auto;
+    }
+
+    .slick-dots{
+        bottom: 8%;
+    }
+
+    .form-wrapper{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+    .side-bar .icon-container{
+        padding: 6px;
+    }
+    
+    .side-bar img{
+        width: 18px;
+    }
+}
+
+@media all and (max-width:540px){
+
+}
+
+@media all and (max-width:340px){
+
+}
